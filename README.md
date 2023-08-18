@@ -1,4 +1,5 @@
 # NeuroTechXHackaton
+This was our winning solution for the NTX Global Hackathon
 
 ## Pipeline
 BPM gathered from sensors is read by hearthrate.py script and forwarded to GCP pub/sub. From there heartrateToFirestore.py reads incoming realtime data
@@ -16,3 +17,5 @@ than the average distance of the respective cluster points.
 
 The model was intended to have 2 more breathing belt(BB) features, the breathing rate and the variability of the breathing signal(implemented as two features vmax and vmin)
 The calculation of BB features would be done the same way it was done for the BMP features.
+
+
